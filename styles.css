@@ -11,6 +11,7 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     min-height: 100vh;
+    filter: brightness(85%);
 }
 
 .container {
@@ -25,7 +26,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(0, 0, 128, 0.9);
+    background: rgb(255, 255, 255);
     backdrop-filter: blur(20px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     z-index: 1000;
@@ -56,12 +57,12 @@ body {
 
 .nav-links {
     display: flex;
-    gap: 40px;
+    gap: 32px;
     align-items: center;
 }
 
 .nav-link {
-    color: #ffffff;
+    color: #0f0e0e;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
@@ -116,6 +117,11 @@ body {
     align-items: center;
     padding-top: 100px;
     padding-bottom: 80px;
+    /* New Background Image */
+    background-image: url('/public/Vessel bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero-container {
@@ -190,8 +196,8 @@ body {
 }
 
 .hero-headline {
-    font-size: 4.5rem;
-    font-weight: 900;
+    font-size: 3.2rem;
+    font-weight: 600;
     line-height: 1.1;
     margin: 0;
 }
@@ -199,6 +205,7 @@ body {
 .headline-main {
     color: #ffffff;
     display: block;
+
 }
 
 .headline-accent {
@@ -905,15 +912,15 @@ body {
     margin-bottom: 16px;
 }
 
-.feature-tag {
+.feature-tag {  
     position: absolute;
-    top: 16px;
-    right: 16px;
+    top: 2px;
+    right: 7px;
     padding: 4px 12px;
     border-radius: 20px;
     font-size: 0.75rem;
     font-weight: 600;
-    color: #ffffff;
+    color: #808080;
 }
 
 .fuel-tag { background: rgba(144, 238, 144, 0.2); border: 1px solid #90EE90; }
@@ -1045,7 +1052,7 @@ body {
 .contact-section {
     position: relative;
     z-index: 2;
-    padding: 100px 0;
+    padding: 10px 0;
 }
 
 .contact-content {
